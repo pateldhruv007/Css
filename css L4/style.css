@@ -1,0 +1,15 @@
+#Box-1{
+    border: 1px solid #000;
+    max-width: 500px;
+    min-height: 350px;
+    background-color: aqua;
+   
+    
+}
+#Box-2{
+    border: 1px solid #d66464;
+    max-width: 300px;
+    min-height: 400px;
+    background-color: red;
+    padding: 20px;
+}

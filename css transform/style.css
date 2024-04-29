@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid #000;
+    transition: 1s;
+    transform: rotate(360deg);
+    
+    
+  
+    
+    
+}
+div:hover{
+  width: 100%;
+    
+}
+#Box2{
+    height: 300px;
+    width: 300px;
+  background-color: red;
+
+}
+
+#box2:hover{
+    background-color: red;
+}

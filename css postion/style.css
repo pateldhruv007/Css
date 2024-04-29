@@ -1,0 +1,21 @@
+#Box1{
+    border: 1px solid #000;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    
+}
+img{
+    position: absolute;
+}
+#img2{
+  right: 0px;
+}
+#img3{
+    bottom: 0px;
+}
+#img4{
+   right: 0;
+   bottom: 0;
+
+}

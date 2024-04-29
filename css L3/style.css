@@ -1,0 +1,21 @@
+@font-face {
+    font-family:"dhruv" ;
+    src: url("./transfonter.org-20151008-110822/hinted-RobotoSlab-Light.ttf");
+}
+p{
+    font-family:"dhruv" ;
+    src: url("./transfonter.org-20151008-110822/hinted-RobotoSlab-Light.ttf");
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+.Hello{
+    position: absolute;
+    top: 10%;
+   background-attachment: fixed;
+   background-blend-mode: darken;
+    
+    
+}
