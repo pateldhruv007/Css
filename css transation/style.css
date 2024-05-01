@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+.nav1{
+    width: 100%;
+    background-color: #e0ebed;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+}
+
+a::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #ba8bac;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+a:hover::after{
+    width: 100%;
+}
