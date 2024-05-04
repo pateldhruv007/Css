@@ -1,0 +1,62 @@
+#Nav-1{
+    border: 1px solid #000;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffff ;
+    
+}
+.fa-solid{
+    border: 1px solid #000;
+    font-size: 30px;
+}
+.Location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 20px;
+}
+
+
+#Navgation-Bar{
+    width: 100%;border: 1px solid #000;
+
+
+}
+
+#Navgation-Bar>nav{
+    margin: auto;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: None;
+}
+.List-item{
+    display: none;
+    position: absolute;
+}
+
+.drownDown{
+    list-style-type: none;
+}
+
+.drownDown:Hover .List-item{
+    height: auto;
+    width: 100px;
+    padding: 15px;
+    background-color: lightblue;
+    display: block;
+    cursor: pointer;
+    transition: ease 0.3s;
+    text-align: justify;
+    font-size: 10px;
+    float: left;
+
+   
+}
